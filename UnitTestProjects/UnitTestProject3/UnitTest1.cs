@@ -5,21 +5,21 @@ namespace UnitTestProject3
     [TestFixture]
     public class UnitTest1
     {
-        [Category("NormalRun")]
+        //[Category("NormalRun")]
         [Test]
         public void TestMethod3()
         {
             Assert.That(4, Is.EqualTo(6));
         }
 
-        [Category("SpecialSetupRequired")]
+        //[Category("SpecialSetupRequired")]
         [Test]
         public void TestMethod4()
         {
             Assert.That(5, Is.EqualTo(6));
         }
 
-        [Category("SpecialSetupRequired")]
+        //[Category("SpecialSetupRequired")]
         [Test]
         public void TestMethod5()
         {
