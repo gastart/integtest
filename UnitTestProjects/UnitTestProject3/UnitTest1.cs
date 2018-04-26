@@ -16,5 +16,11 @@ namespace UnitTestProject3
         {
             Assert.That(6, Is.EqualTo(6));
         }
+
+        [Test]
+        public void TestMethod5()
+        {
+            Assert.That(6, Is.EqualTo(6));
+        }
     }
 }
