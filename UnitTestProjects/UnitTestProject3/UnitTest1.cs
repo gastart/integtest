@@ -11,12 +11,14 @@ namespace UnitTestProject3
             Assert.That(4, Is.EqualTo(6));
         }
 
+        [Category("SpecialSetupRequired")]
         [Test]
         public void TestMethod4()
         {
-            Assert.That(6, Is.EqualTo(6));
+            Assert.That(5, Is.EqualTo(6));
         }
 
+        [Category("SpecialSetupRequired")]
         [Test]
         public void TestMethod5()
         {
