@@ -5,6 +5,7 @@ namespace UnitTestProject3
     [TestFixture]
     public class UnitTest1
     {
+        [Category("NormalRun")]
         [Test]
         public void TestMethod3()
         {
