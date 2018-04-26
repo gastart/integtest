@@ -12,7 +12,7 @@ namespace UnitTestProject3
             Assert.That(4, Is.EqualTo(6));
         }
 
-        //[Category("SpecialSetupRequired")]
+        [Category("SpecialSetupRequired")]
         [Test]
         public void TestMethod4()
         {
@@ -20,7 +20,7 @@ namespace UnitTestProject3
         }
 
         //
-        //[Category("SpecialSetupRequired")]
+        [Category("SpecialSetupRequired")]
         [Test]
         public void TestMethod5()
         {
